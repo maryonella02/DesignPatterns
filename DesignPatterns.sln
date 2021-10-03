@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDP", "CreationalDP\CreationalDP.csproj", "{95840855-DB38-4D4C-89EB-4919F595BBBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95840855-DB38-4D4C-89EB-4919F595BBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95840855-DB38-4D4C-89EB-4919F595BBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95840855-DB38-4D4C-89EB-4919F595BBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95840855-DB38-4D4C-89EB-4919F595BBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF0FBF1D-B0B6-4B8E-BC23-F2412E15257F}
+	EndGlobalSection
+EndGlobal

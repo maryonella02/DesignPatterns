@@ -13,11 +13,6 @@ namespace CreationalDP
         public string FuelType { get; set; }
 
 
-        public void PrintDetails(string message)
-        {
-            Console.WriteLine(message);
-        }
-
         public Vehicle GetClone()
         {
             return (Vehicle)this.MemberwiseClone();

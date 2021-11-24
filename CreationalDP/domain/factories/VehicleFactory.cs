@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CreationalDP
 {
-    class VehicleFactory
+    public class VehicleFactory
     {
         public static Vehicle CreateVehicleByType(string vehicleType)
         {

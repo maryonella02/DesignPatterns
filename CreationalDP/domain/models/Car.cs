@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CreationalDP
 {
-    class Car : VehicleBuilder
+    public class Car : VehicleBuilder
     {
         public override void SetEngineType()
         {

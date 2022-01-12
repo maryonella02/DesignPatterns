@@ -15,8 +15,5 @@ namespace BehavioralDP.domain.StateDP
         public abstract void Decelerate();
         public abstract void TurnLeft();
         public abstract void TurnRight();
-
-
-
     }
 }

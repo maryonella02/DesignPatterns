@@ -1,15 +1,20 @@
 ﻿using System;
 using CreationalDP;
+using StructuralDP;
 using StructuralDP.DecoratorDP;
 using StructuralDP.FacadeDP;
 
-namespace StructuralDP
+namespace BehavioralDP
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Create a simple car: \n");  
+            Console.WriteLine("Create a motorcycle: \n");
+            VehicleFactory.CreateVehicleByType("moto");
+
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Create a simple car: \n");
 
             var carExteriorFactory = new CarExteriorFactory();
             var carInteriorFactory = new CarInteriorFactory();
@@ -32,14 +37,12 @@ namespace StructuralDP
 
             var salonChange2 = new SalonCustomizationService(salonChange);
             RunDecoratorChanges(salonChange2);
-          
-            Console.ReadLine();
 
+            Console.ReadLine();
         }
         public static void RunDecoratorChanges(UpperClassVehicle upperClassVehicle)
         {
             upperClassVehicle.ChangeSalonType();
         }
-       
     }
 }

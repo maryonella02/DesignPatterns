@@ -10,6 +10,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralDP", "StructuralD
 		{95840855-DB38-4D4C-89EB-4919F595BBBE} = {95840855-DB38-4D4C-89EB-4919F595BBBE}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralDP", "BehavioralDP\BehavioralDP.csproj", "{2EAE0170-4314-47C3-BAF6-3349265D8F27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95840855-DB38-4D4C-89EB-4919F595BBBE} = {95840855-DB38-4D4C-89EB-4919F595BBBE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{8DD6F785-9AAD-41E4-A7F7-7FA2C16FE7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DD6F785-9AAD-41E4-A7F7-7FA2C16FE7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DD6F785-9AAD-41E4-A7F7-7FA2C16FE7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAE0170-4314-47C3-BAF6-3349265D8F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAE0170-4314-47C3-BAF6-3349265D8F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAE0170-4314-47C3-BAF6-3349265D8F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAE0170-4314-47C3-BAF6-3349265D8F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

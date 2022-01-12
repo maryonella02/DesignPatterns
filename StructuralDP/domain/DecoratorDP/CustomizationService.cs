@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDP.DecoratorDP
 {
-    abstract class CustomizationService : UpperClassVehicle
+    abstract public class CustomizationService : UpperClassVehicle
     {
         protected UpperClassVehicle upperClassVehicle;
         public CustomizationService(UpperClassVehicle upperClassVehicle)

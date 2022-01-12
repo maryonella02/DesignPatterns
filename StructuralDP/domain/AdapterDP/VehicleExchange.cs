@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDP
 {
-    class VehicleExchange : IVehicleFactory
+    public class VehicleExchange : IVehicleFactory
     {
         private readonly Vehicle _vehicle;
         public VehicleExchange(Vehicle vehicle)

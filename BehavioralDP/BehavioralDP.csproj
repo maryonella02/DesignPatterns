@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="domain\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CreationalDP\CreationalDP.csproj" />
     <ProjectReference Include="..\StructuralDP\StructuralDP.csproj" />
   </ItemGroup>

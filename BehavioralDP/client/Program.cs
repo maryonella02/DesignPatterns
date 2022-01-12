@@ -1,4 +1,5 @@
 ﻿using System;
+using BehavioralDP.domain.StateDP;
 using CreationalDP;
 using StructuralDP;
 using StructuralDP.DecoratorDP;
@@ -37,6 +38,21 @@ namespace BehavioralDP
 
             var salonChange2 = new SalonCustomizationService(salonChange);
             RunDecoratorChanges(salonChange2);
+
+            Console.WriteLine("-------------------");
+            Console.WriteLine("\n Let's test our marvelous transmission box! \n");
+            var gearTest = new TransmissionBox(new FirstGear());
+            gearTest.Accelerate();
+            gearTest.TurnRight();
+            gearTest.Accelerate();
+            gearTest.TurnLeft();
+            gearTest.Decelerate();
+            gearTest.TurnLeft();
+            gearTest.Decelerate();
+            gearTest.TurnRight();
+            gearTest.Decelerate();
+            gearTest.TurnRight();
+            gearTest.Decelerate();
 
             Console.ReadLine();
         }

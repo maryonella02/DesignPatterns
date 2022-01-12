@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDP.DecoratorDP
 {
-    class SalonOfUpperClassVehicle : UpperClassVehicle
+    public class SalonOfUpperClassVehicle : UpperClassVehicle
     {
         public override void ChangeSalonType()
         {

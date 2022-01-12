@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDP.DecoratorDP
 {
-    class SalonCustomizationService : CustomizationService
+    public class SalonCustomizationService : CustomizationService
     {
         public SalonCustomizationService(UpperClassVehicle upperClassVehicle) : base(upperClassVehicle)
         {
